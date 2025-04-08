@@ -1,0 +1,26 @@
+menu-bar .menu {
+    -fx-background-color: #e5e7e9 !important; /* No background color */
+    -fx-text-fill: black !important; /* Text color black */
+}
+
+.menu-bar .menu .label {
+    -fx-text-fill: black !important; /* Text color black */
+	
+}
+
+.menu-bar .menu:hover {
+    -fx-background-color: #e5e7e9 !important; /* No background color on hover */
+    -fx-text-fill: black !important; /* Text color remains black on hover */
+}
+
+.menu-bar .menu:showing {
+    -fx-background-color: #e5e7e9 !important; /* No background color when menu is clicked */
+    -fx-text-fill: black !important; /* Text color remains black when menu is clicked */
+}
+.menu-item{
+	-fx-background-color: #ffffff00; 
+}
+.menu-item:hover  {
+	
+	-fx-background-color: #e5e7e9 ;
+}
